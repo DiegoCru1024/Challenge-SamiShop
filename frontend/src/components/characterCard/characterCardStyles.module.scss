@@ -1,0 +1,27 @@
+.cardContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid var(--borderLow);
+  transition: ease-in-out 0.25s;
+  text-decoration: none;
+
+  &:hover {
+    background: whitesmoke;
+    transition: ease-in-out 0.25s;
+  }
+
+  div {
+    color: black;
+
+    p {
+      color: var(--pLow);
+    }
+  }
+
+  svg {
+    width: 32px;
+    height: 32px;
+  }
+}

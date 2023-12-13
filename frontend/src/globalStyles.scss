@@ -1,0 +1,35 @@
+:root {
+  --h2High: rgba(235, 87, 87, 1);
+  --h2Low: rgba(0, 0, 0, .3);
+  --pLow: rgba(0, 0, 0, .5);
+  --borderLow: rgba(225, 225, 225, 1)
+}
+
+* {
+  font-family: "Roboto Light", sans-serif;
+  margin: 0;
+}
+
+.appContainer {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 11fr;
+  width: 100vw;
+  height: 100vh;
+}
+
+.mobileAppContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 11fr;
+  width: 100vw;
+  height: 100vh;
+}
+
+h2 {
+  font-size: 17px;
+}
+
+p {
+  font-size: 14px;
+}

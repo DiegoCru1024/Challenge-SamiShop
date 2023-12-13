@@ -1,0 +1,33 @@
+.titleContainer {
+  background: #121212;
+  color: white;
+  grid-area: 1 / 1 / 2 / 3;
+  display: flex;
+  align-items: center;
+
+  h3 {
+    padding: 0 25px;
+  }
+
+  a {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .titleContainer {
+    justify-content: center;
+
+    a {
+      display: block;
+      position: absolute;
+      left: 16px;
+
+      svg {
+        fill: white;
+        width: 32px;
+        height: 32px;
+      }
+    }
+  }
+}

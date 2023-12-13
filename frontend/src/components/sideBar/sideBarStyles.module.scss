@@ -1,0 +1,10 @@
+.sideBarContainer {
+  border-right: 1px solid var(--borderLow);
+  overflow-y: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

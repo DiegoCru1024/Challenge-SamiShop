@@ -1,0 +1,13 @@
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  color: var(--h2Low);
+
+  svg {
+    width: 32px;
+    height: 32px;
+    margin: 0 !important;
+  }
+}
